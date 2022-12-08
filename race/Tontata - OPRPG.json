@@ -1,0 +1,154 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Tontata51",
+				"abbreviation": "OPRPG",
+				"full": "OPRPG:Tontata51",
+				"authors": [
+					"Alek"
+				],
+				"version": "1.0.0",
+				"url": "",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0,
+		"_dateLastModifiedHash": "0803d8fd66"
+	},
+	"race": [
+		{
+			"name": "Tontata",
+			"source": "OPRPG:Tontata51",
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								2
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								1,
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"size": [
+				"T"
+			],
+			"speed": {
+				"walk": 30,
+				"swim": 15
+			},
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Alvo Pequeno",
+						"entries": [
+							"O corpo de um anão é muito mais difícil de acertar, enquanto estiver com o mesmo tamanho (Miúdo) e puder se mover, o anão recebe um bônus à sua CR de +1."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Conexão com a Natureza",
+						"entries": [
+							"O anão é proficiente e pode usar a Perícia Especial “Adestrar Animais” (Sabedoria ou Espírito), presente na profissão Adestrador no Capítulo 4, para tentar convencer insetos ou outros animais não hostis a te ajudarem em uma tarefa."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Estômago pequeno",
+						"entries": [
+							"Itens consumíveis e alimentos feitos para criaturas de tamanho normal podem ser usados pela metade para garantir os mesmos bônus."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Força de Gigante",
+						"entries": [
+							"O dado de uma jogada de ataque corpo-a-corpo de um anão se torna o d10 (caso receba outro tipo de dado, prevalece o maior)."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Habitat Natural (Floresta)",
+						"entries": [
+							"Anões recebem +2 em Testes de Habilidade de Sabedoria (Sobrevivência) em ambientes com grande vegetação."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Naturalista",
+						"entries": [
+							"O anão pode escolher o treinamento “Alquimista” com a característica “Traços Culturais”, mesmo ele ultrapassando 7.000 pontos de experiência"
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Piscar",
+						"entries": [
+							"Enquanto estiverem do mesmo tamanho (Miúdo) e puderem se mexer, anões recebem vantagem em Testes de Habilidade de Destreza (Furtividade), quando não estiverem em batalha. Dentro de uma batalha, podem tentar se esconder mesmo em plena vista, usando uma ação bônus, desde que tenham um lugar para se esconder"
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/51158316-fd7e-48ca-b5fe-8542e9dfe357/dbcd18b-c622031a-27be-417a-9aa4-f3179696201d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUxMTU4MzE2LWZkN2UtNDhjYS1iNWZlLTg1NDJlOWRmZTM1N1wvZGJjZDE4Yi1jNjIyMDMxYS0yN2JlLTQxN2EtOWFhNC1mMzE3OTY5NjIwMWQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.hSZo35URddCENUmPpsUTPTnOxFgY5uYePmoW7vsyOWc"
+						}
+					}
+				]
+			}
+		}
+	]
+}
